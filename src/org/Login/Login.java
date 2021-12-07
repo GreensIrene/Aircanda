@@ -6,7 +6,12 @@ public class Login {
 		System.out.println("password Functionality");
 	}
 	
+	public static void userName() {
+		System.out.println("userName Functionality");
+	}
 	public static void main(String[] args) {
+		userName();
 		passWord();
+		
 	}
 }
